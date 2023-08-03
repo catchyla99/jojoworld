@@ -1,0 +1,67 @@
+*{
+    box-sizing:border-box;
+    margin: 10px;
+   
+    
+}
+
+div{
+    color: #e245be;
+  background-color: #1b061b;
+padding: 10px;
+border: solid 3px;
+border-color: rgb(77, 9, 53);
+border-radius: 10px;
+}
+
+
+
+.mainh1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #e245be;
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],select,fieldset,input[type="date"]{
+    background-color: beige;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+    align-items: center;
+}
+
+textarea{
+    background-color:beige;
+    padding: 5px ;
+    border-radius: 10px;
+    width: 95%;
+    align-items: center;
+
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],select,textarea,fieldset:hover{
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: #e245be;
+    padding: 7px;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: violet;
+    color: #461446;
+    box-shadow: 2px 2px;
+    box-shadow: 4px 4px 4px 4px 833370;
+
+}
+
+
