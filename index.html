@@ -18,7 +18,7 @@
     <form action="">
         <h3>Contact Information</h3>
         <p>Name: <input type="text" name="name" id="name" required placeholder="Eg: Sumiran Soni"></p>
-        <p>Phone Number: <input type="number" name="phone_number" id="phone_number" required placeholder="XXXXXXXXXX">
+        <p>Phone Number: <input type="number" name="phone_number" id="phone_number" required placeholder="XXXXXXXXXX" maxlength="10">
         </p>
         <p>Email: <input type="email" name="email" id="email" required placeholder="something@something.com"></p>
        <p>Gender:</p>
@@ -32,7 +32,7 @@
           <p>Address:  <textarea name="Address" id="Address" cols="200" rows="10" required
                 placeholder="Enter your current resident address here"></textarea></p>
         
-        <p>Pincode <input type="number" name="Pincode" id="Pincode" required placeholder="......"></p>
+        <p>Pincode <input type="number" name="Pincode" id="Pincode" required placeholder="......" maxlength="6"></p>
         <hr>
         <h3>Payment Details</h3>
         <p>Select card type: <select name="cardtype" id="cardtype" required>
@@ -42,8 +42,8 @@
                 <option value="Rupay">Rupay Card</option>
             </select></p>
         <P>Card Number: <input type="number" name="cardnumber" id="cardnumber" required
-                placeholder="XXXX-XXXX-XXXX-XXXX"></P>
-        <p>CVV Number <input type="password" name="cvv" id="cvv" required placeholder="***"></p>
+                placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16"></P>
+        <p>CVV Number <input type="password" name="cvv" id="cvv" required placeholder="***" maxlength="3"></p>
         <p>Expiration Date: <input type="date" name="cardexpiration" id="cardexpiration" required
                 placeholder="dd/mm/yyyy"></p>
         <center>        <input type="submit" value="Pay Now">
